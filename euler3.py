@@ -1,7 +1,14 @@
-a = 600851475143
+#num = 600851475143
+num = 30
 
-b = 10
-pf = []
+pf = [2]
 
-for x in range (b+1) :
-    print(x)
+for a in range (3,num+1):
+    for x in pf :
+        if a % x == 0 :
+            pf.append(x)
+
+print(pf)
+print("**********")
+print(pf[-1])
+

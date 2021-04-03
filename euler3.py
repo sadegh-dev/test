@@ -1,12 +1,19 @@
 #num = 600851475143
-num = 30
+num = 100
 
+#prime factors
 pf = [2]
 
 for a in range (3,num+1):
+    flag = 1
     for x in pf :
         if a % x == 0 :
-            pf.append(x)
+            flag = 0
+            break
+    if flag :
+        pf.append(a)
+
+
 
 print(pf)
 print("**********")

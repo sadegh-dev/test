@@ -15,7 +15,6 @@ for a in range (3,num+1):
 
 
 
-print(pf)
 print("**********")
 print(pf[-1])
 
